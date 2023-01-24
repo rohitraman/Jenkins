@@ -29,6 +29,7 @@ pipeline {
         stage('Execute python code') {
             steps {
                 sh "python3 hello.py"
+                sh "python3 hello.py"
             }
         }
     }
